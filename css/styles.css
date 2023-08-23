@@ -251,20 +251,25 @@ img {
 .footer__subscribe-form {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .footer__subscribe-input {
+    width: 264px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--white, );
     background-color: transparent;
-    margin-right: 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer__subscribe-input::placeholder {
-    font-size: 12px;
     color: var(--white);
-    padding-left: 16px;
 }
 
 .footer__subscribe-button {
@@ -708,20 +713,23 @@ img {
     fill: var(--white);
 }
 
-.contact-form {}
-
 .contact-from__headline {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
     margin-bottom: 16px;
     text-align: center;
 }
 
+.contact-from__field-wrapper {
+    margin-bottom: 8px;
+}
+
 .contact-from__field {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .contact-from__label {
@@ -766,29 +774,40 @@ img {
     fill: var(--iris);
 }
 
-.contact-from__comment-inpput {
+.contact-from__comment-input {
+    width: 100%;
     resize: none;
     height: 120px;
     padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--navy-blue-modal);
+    border: 1px solid var(--navy-blue-modal);
+    border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-from__comment-inpput::placeholder {
+.contact-from__comment-input:focus {
+    border-color: var(--iris);
+}
+
+.contact-from__comment-input::placeholder {
+    color: var(--navy-blue-modal);
     font-size: 12px;
     line-height: 1.17;
     color: var(--navy-blue-modal);
 }
 
+.contact-from__checkbox-wrapper {
+    margin-bottom: 24px;
+}
+
 .contact-from__field-checkbox {
     display: flex;
     align-items: center;
-}
-
-.contact-from__checkbox-inpput {
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 2px;
-    border: 1px solid var(--light-slate);
 }
 
 .contact-from__checkbox-span {
@@ -807,15 +826,14 @@ img {
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-from__checkbox-inpput:checked+label span {
+.contact-from__checkbox-input:checked+.contact-from__checkbox-field-label .contact-from__checkbox-span {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
 }
 
-.contact-from__checkbox-icon {}
-
 .contact-from__checkbox-field-label {
+    display: block;
     margin-bottom: 0px;
 }
 
@@ -836,7 +854,7 @@ img {
     background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
-    margin: 24px auto 0px;
+    margin: 0 auto;
     display: block;
     color: var(--white);
     text-align: center;
