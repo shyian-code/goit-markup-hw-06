@@ -204,7 +204,8 @@ img {
     max-width: 264px;
 }
 
-.footer__socials-headline {
+.footer__socials-headline,
+.footer__subscribe-headline {
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
@@ -240,6 +241,61 @@ img {
 
 .footer__socials-list-item-link:hover .footer__socials-icon {
     fill: var(--cloud);
+}
+
+/* Footer Subscribe Form */
+.footer__subscribe-wrapper {
+    margin-left: 80px;
+}
+
+.footer__subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__subscribe-input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--white, );
+    background-color: transparent;
+    margin-right: 24px;
+}
+
+.footer__subscribe-input::placeholder {
+    font-size: 12px;
+    color: var(--white);
+    padding-left: 16px;
+}
+
+.footer__subscribe-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    min-width: 165px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__subscribe-button:hover,
+.footer__subscribe-button:focus {
+    background-color: var(--ocean);
+}
+
+.footer__subscribe-icon {
+    fill: var(--white);
+    margin-left: 16px;
 }
 
 /* Home page */
