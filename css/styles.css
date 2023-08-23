@@ -769,6 +769,10 @@ img {
     fill: var(--iris);
 }
 
+.contact-from__field-textarea-wrapper {
+    margin-bottom: 16px;
+}
+
 .contact-from__comment-input {
     width: 100%;
     resize: none;
@@ -830,6 +834,10 @@ img {
 .contact-from__checkbox-field-label {
     display: block;
     margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
 }
 
 .contact-from__checkbox-field-link {
