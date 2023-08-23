@@ -730,15 +730,10 @@ img {
 .contact-from__field {
     display: block;
     margin-bottom: 4px;
-}
-
-.contact-from__label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    font-weight: 400;
     color: var(--light-slate);
-    margin-bottom: 4px;
 }
 
 .contact-from__input-wrapper {
