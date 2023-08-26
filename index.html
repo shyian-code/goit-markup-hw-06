@@ -68,6 +68,95 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu__open js-open-menu" type="button">
+          <svg
+            class="mobile-menu__open-icon"
+            aria-label="mobile-menu-open"
+            width="32"
+            height="22"
+            stroke="var(--grey)"
+          >
+            <use href="./images/icons.svg#mobile-menu-open"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-menu__container js-menu-container">
+          <div class="mobile-menu__wrapper">
+            <button class="mobile-menu__close js-close-menu" type="button">
+              <svg
+                class="mobile-menu__close-icon"
+                aria-label="mobile-menu-close"
+                width="8"
+                height="8"
+              >
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu__list list">
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__nav current link" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__nav link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__nav link" href="">Contacts</a>
+              </li>
+            </ul>
+            <address class="mobile-menu__contacts">
+              <ul class="mobile-menu__contacts-list list">
+                <li class="mobile-menu__contacts-item">
+                  <a
+                    class="mobile-menu__contacts-tel link"
+                    href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mobile-menu__contacts-item">
+                  <a
+                    class="mobile-menu__contacts-mail link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mobile-menu__social-list list">
+              <li class="mobile-menu__social-item">
+                <a class="mobile-menu__social-link link" href="">
+                  <svg class="mobile-menu__social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-social-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu__social-item">
+                <a class="mobile-menu__social-link link" href="">
+                  <svg class="mobile-menu__social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-social-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu__social-item">
+                <a class="mobile-menu__social-link link" href="">
+                  <svg class="mobile-menu__social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-social-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu__social-item">
+                <a class="mobile-menu__social-link link" href="">
+                  <svg class="mobile-menu__social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-social-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -152,6 +241,7 @@
             <li class="our-work-section__list-item">
               <img
                 class="our-work-section__list-item-image"
+                srcset="./images/home/about-1-2x.jpg 2x"
                 src="./images/home/about-1.jpg"
                 alt="Monitor with charts"
                 width="360"
@@ -161,6 +251,7 @@
             <li class="our-work-section__list-item">
               <img
                 class="our-work-section__list-item-image"
+                srcset="./images/home/about-2-2x.jpg 2x"
                 src="./images/home/about-2.jpg"
                 alt="Messenger design layers"
                 width="360"
@@ -170,6 +261,7 @@
             <li class="our-work-section__list-item">
               <img
                 class="our-work-section__list-item-image"
+                srcset="./images/home/about-3-2x.jpg 2x"
                 src="./images/home/about-3.jpg"
                 alt="iPhone in user hands"
                 width="360"
@@ -186,6 +278,7 @@
             <li class="team-section__list-item">
               <img
                 class="team-section__list-item-image"
+                srcset="./images/home/team-1-2x.jpg 2x"
                 src="./images/home/team-1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -255,6 +348,7 @@
             <li class="team-section__list-item">
               <img
                 class="team-section__list-item-image"
+                srcset="./images/home/team-2-2x.jpg 2x"
                 src="./images/home/team-2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -324,6 +418,7 @@
             <li class="team-section__list-item">
               <img
                 class="team-section__list-item-image"
+                srcset="./images/home/team-3-2x.jpg 2x"
                 src="./images/home/team-3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -391,6 +486,7 @@
             <li class="team-section__list-item">
               <img
                 class="team-section__list-item-image"
+                srcset="./images/home/team-4-2x.jpg 2x"
                 src="./images/home/team-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -690,5 +786,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
