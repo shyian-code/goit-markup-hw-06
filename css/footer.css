@@ -1,0 +1,122 @@
+.footer-section {
+  background-color: var(--navy-blue-color);
+  color: var(--cloud-color);
+  padding: 100px 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  color: var(--cloud-color);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
+}
+
+.footer-socials-title,
+.footer-subscribe-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--white-color);
+}
+
+.footer-socials {
+  margin-right: 83px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-social-link {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris-color);
+  color: var(--cloud-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link svg {
+  fill: var(--cloud-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--green-color);
+}
+
+/* Footer subscribe form styles */
+.footer-subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-subscribe-input {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid var(--white-color);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-input::placeholder {
+  color: var(--white-color);
+}
+
+.footer-subscribe-input:focus {
+  border-color: var(--green-color);
+}
+
+.footer-subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 40px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
+  background-color: var(--green-color);
+}
+
+.footer-subscribe-button-icon {
+  fill: var(--white-color);
+}
