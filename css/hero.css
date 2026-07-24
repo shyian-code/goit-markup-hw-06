@@ -83,7 +83,7 @@
     padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/hero-bg-desktop.jpg');
+      url('../images/hero-bg.jpg');
   }
 
   .hero-title {
@@ -95,6 +95,6 @@
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/hero-bg-desktop@2x.jpg');
+      url('../images/hero-bg@2x.jpg');
   }
 }
