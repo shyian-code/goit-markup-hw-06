@@ -5,9 +5,8 @@
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 48px 24px;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .portfolio-list-item {
@@ -59,4 +58,26 @@
 
 .portfolio-item-title {
   margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media (min-width: 1158px) {
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
