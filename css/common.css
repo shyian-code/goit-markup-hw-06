@@ -107,7 +107,26 @@ img {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+@media (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
 }
