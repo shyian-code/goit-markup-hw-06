@@ -19,7 +19,6 @@
 }
 
 .footer-text {
-  max-width: 264px;
   text-align: left;
 }
 
@@ -140,6 +139,10 @@
     text-align: left;
     column-gap: 24px;
     row-gap: 72px;
+  }
+
+  .footer-text {
+    max-width: 264px;
   }
 
   .footer-socials {
