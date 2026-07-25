@@ -1,7 +1,7 @@
 .footer-section {
   background-color: var(--navy-blue-color);
   color: var(--cloud-color);
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-container {
@@ -72,7 +72,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-subscribe-label {
@@ -142,6 +142,10 @@
     row-gap: 72px;
   }
 
+  .footer-socials {
+    margin: 0;
+  }
+
   .footer-subscribe {
     width: auto;
   }
@@ -152,11 +156,12 @@
 
   .footer-subscribe-form {
     flex-direction: row;
+    gap: 24px;
   }
 }
 
 @media (min-width: 1158px) {
-  .footer {
+  .footer-section {
     padding: 100px 0;
   }
 

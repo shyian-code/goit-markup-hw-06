@@ -1,7 +1,6 @@
 .features-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 72px;
 }
 
@@ -63,6 +62,8 @@
 
   .features-item-title {
     font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
   }
 
   .features-item-description {
